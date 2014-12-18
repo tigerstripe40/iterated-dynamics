@@ -496,7 +496,7 @@ int fullscreen_choice(
     lookatmouse = 0;
     ret = -1;
     // preset current to passed string
-    int len = (int) strlen(speedstring);
+    int len = speedstring ? (int) strlen(speedstring) : 0;
     if (speedstring && len > 0)
     {
         current = 0;
