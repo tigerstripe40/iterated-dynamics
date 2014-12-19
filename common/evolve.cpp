@@ -937,11 +937,11 @@ void drawparmbox(int mode)
 
     boxcount =0;
     //draw larger box to show parm zooming range
-    bl.x = ((px -(int)parmzoom) * (int)(dxsize+1+grout))-sxoffs-1;
+    bl.x = ((px -(int)parmzoom) * (int)(d_x_size+1+grout))-sxoffs-1;
     tl.x = bl.x;
     tr.y = ((py -(int)parmzoom) * (int)(d_y_size+1+grout))-syoffs-1;
     tl.y = tr.y;
-    tr.x = ((px +1+(int)parmzoom) * (int)(dxsize+1+grout))-sxoffs;
+    tr.x = ((px +1+(int)parmzoom) * (int)(d_x_size+1+grout))-sxoffs;
     br.x = tr.x;
     bl.y = ((py +1+(int)parmzoom) * (int)(d_y_size+1+grout))-syoffs;
     br.y = bl.y;

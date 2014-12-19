@@ -42,7 +42,7 @@ int     textsafe2;              /* textsafe override from g_video_table */
 int     sxdots, sydots;          /* # of dots on the physical screen    */
 int     sxoffs, syoffs;          /* physical top left of logical screen */
 int     xdots, ydots;           /* # of dots on the logical screen     */
-double  dxsize, d_y_size;       /* xdots-1, ydots-1         */
+double  d_x_size, d_y_size;     /* xdots-1, ydots-1         */
 int     colors = 256;           /* maximum colors available */
 long    maxit;                  /* try this many iterations */
 int     boxcount;               /* 0 if no zoom-box yet     */

@@ -1285,9 +1285,9 @@ ev_button_press(DriverX11 *di, XEvent *xevent)
         bandy1 = bandy0+1;
     zrotate = 0;
     zskew = 0;
-    zbx = (MIN(bandx0, bandx1)-sxoffs)/dxsize;
+    zbx = (MIN(bandx0, bandx1)-sxoffs)/d_x_size;
     zby = (MIN(bandy0, bandy1)-syoffs)/d_y_size;
-    zwidth = ABS(bandx1-bandx0)/dxsize;
+    zwidth = ABS(bandx1-bandx0)/d_x_size;
     zdepth = zwidth;
     if (!inside_help)
         di->xbufkey = FIK_ENTER;
