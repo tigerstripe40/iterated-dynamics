@@ -126,7 +126,7 @@ extern double                dxsize;
 extern std::vector<double>   dy0;
 extern std::vector<double>   dy1;
 extern double              (*dypixel)();
-extern double                dysize;
+extern double                d_y_size;
 extern bool                  escape_exit;
 extern BYTE                  exitmode;
 extern int                   evolving;

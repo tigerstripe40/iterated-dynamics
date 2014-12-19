@@ -1219,7 +1219,7 @@ finish:
         xdots = sxdots;
         ydots = sydots;
         dxsize = xdots - 1;
-        dysize = ydots - 1;
+        d_y_size = ydots - 1;
         sxoffs = 0;
         syoffs = 0;
         freetempmsg();
